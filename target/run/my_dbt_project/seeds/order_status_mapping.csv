@@ -1,0 +1,21 @@
+
+    
+    
+    
+    create or replace table `workspace`.`production`.`order_status_mapping` (`status` string ,`status_category` string )
+    
+  using delta
+    
+    
+    
+    
+    
+  ;
+    -- dbt seed --
+    
+          insert overwrite `workspace`.`production`.`order_status_mapping` values
+          (%s,%s),(%s,%s),(%s,%s)
+      
+
+;
+  

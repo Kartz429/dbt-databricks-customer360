@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: customer360_bronze
+
+    database: workspace
+    schema: customer360_bronze
+
+    tables:
+      - name: customers
+      - name: orders
+      - name: marketing_events
+      - name: support_tickets
+      - name: web_events

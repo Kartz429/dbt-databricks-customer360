@@ -1,0 +1,4 @@
+status,status_category
+Completed,Success
+Returned,Refund
+Cancelled,Failure

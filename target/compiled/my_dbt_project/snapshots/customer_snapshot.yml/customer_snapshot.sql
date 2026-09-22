@@ -1,0 +1,1 @@
+select * from `workspace`.`dbt_demo`.`silver_customers_dedup`
